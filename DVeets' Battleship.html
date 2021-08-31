@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Battleship</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+<style>
+#StartGame{
+  padding: 20px;
+  float:right;
+  position: absolute;
+  top: 50px;
+  left: 300px;
+}
+#History{
+  width: 500px;
+  height: 500px;
+  border: 1px solid;
+  background-color: lightyellow;
+  position: absolute;
+  bottom: 100px;
+  right: 50px;
+  overflow: scroll;
+}
+</style>
+<script src="script/script.js">
+
+</script>
+
+<p>Player 1 Field</p>
+<div id="field1" style="width:250px;height:250px">
+
+</div>
+<p>Player 2 Field</p>
+<div id="field2" style="width:250px;height:250px;">
+
+</div>
+<button id="StartGame">Start Game</button>
+
+<button id="Speedx1" style="padding: 10px;
+float:right;
+position: absolute;
+top: 50px;
+left: 500px;">
+Speed x1
+</button>
+
+<button id="Speedx10" style="padding: 10px;
+float:right;
+position: absolute;
+top: 50px;
+left: 600px;">
+Speed x10
+</button>
+
+<button id="Speedx20" style="padding: 10px;
+float:right;
+position: absolute;
+top: 50px;
+left: 700px;">
+Speed x20
+</button>
+
+<button id="ShowShips" style="padding: 20px;
+float:right;
+position: absolute;
+top: 200px;
+left: 300px;" >
+Show Ships</button>
+
+<div id="History">
+  <div style="position:sticky;top:0px;background:lightgreen;z-index:1;">History</div>
+</div>
+
+
+
+</body>
+</html>
